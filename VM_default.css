@@ -1,0 +1,99 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body{padding:0;margin:0;background:#FFFFFF;color:#000000;}
+
+
+a:focus, a:hover, a:active {outline:none}
+table{border-collapse:collapse;border-spacing:0}td,th{padding:0} 
+
+.header{background:#3E4095;border-bottom:4px solid #ffffff;padding:10px 0;}
+.header td{font-family: 'Open Sans',sans-serif!important;font-size:23px;font-weight:400;color:#fff;}
+
+.VM_INPUT {width:240px!important;font-family:Arial;font-size:12px;color:#666;line-height:25px;border:1px solid #ccc;padding:0 5px;height:25px;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+
+.VM_BUTTON{background:#333333;font-family:Arial, serif; font-weight:bold;font-size:12px;color:#FFFFFF;border:none;height:25px;}
+
+.BTN{height:25px;background:#333333;font-family:Arial, serif; font-weight:bold;font-size:12px;color:#FFFFFF;border:none;}
+.FLD{height:25px;border:solid 1px #CCCCCC;border-radius:3px;}
+
+.title a,.title a:link,.title a:visited,.title a:active {font-family: "Gill Sans Bold", arial; font-size:26px; color:#00AEEF; text-decoration:none;}
+.title a:hover{text-decoration:none;}
+.txt {color: #34464F;font: 12px 'tahoma',arial;letter-spacing: 0;text-decoration:none;}
+.txt a,.txt a:link,.txt a:visited,.txt a:active {color: #000000;font: 12px 'tahoma',arial;letter-spacing: 0;text-decoration:none;}
+.txt a:hover{text-decoration:none;color:#D80004}
+
+/* -------------------------------------------------- */
+/* ***** AD1 ***** */
+
+/* BOX */
+.BRD_ADLIST_1_DIV,.BRD_ADLIST_2_DIV {width:590px;border:none;margin-bottom:14px;padding:0}
+.BRD_ADLIST_1_DIV_TOP,.BRD_ADLIST_2_DIV_TOP {margin:0;padding:0}
+.BRD_ADLIST_1_DIV_MIDDLE,.BRD_ADLIST_2_DIV_MIDDLE {width:515px;border:1px solid #3E4095;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;padding:7px}
+.BRD_ADLIST_1_DIV_MIDDLE {background-color:#FFFFFF}
+.BRD_ADLIST_2_DIV_MIDDLE {background-color:#FFFFFF}
+.BRD_ADLIST_1_DIV_BOTTOM,.BRD_ADLIST_2_DIV_BOTTOM {margin:0;padding:0}
+.BRD_ADLIST_1_DIV_FOTO,.BRD_ADLIST_2_DIV_FOTO {width:300px;padding:0}
+.BRD_ADLIST_1_DIV_INFO,.BRD_ADLIST_2_DIV_INFO {width:360px;margin:0;padding:0}
+
+/* IMAGE AND BUTTON */
+.BRD_ADLIST_1_DIV_IMG,.BRD_ADLIST_2_DIV_IMG {width:288px;height:180px;overflow:hidden;border:1px solid #ddd;margin:0;padding:0}
+.BRD_ADLIST_1_DIV_IMG,.BRD_ADLIST_2_DIV_IMG a {}
+.BRD_ADLIST_1_IMG,.BRD_ADLIST_2_IMG {width:288px;height:216px;margin-top:-18px}
+.BRD_ADLIST_1_DIV_BUTTON,.BRD_ADLIST_2_DIV_BUTTON {margin-top:10px;padding:0}
+.BRD_ADLIST_1_BUTTON,.BRD_ADLIST_2_BUTTON {background:#333333;width:288px;height:30px;font-family:Arial,sans-serif;font-weight:300;font-size:12px;color:#FFFFFF;border:none;padding:0 25px;cursor:hand;text-transform:uppercase;cursor:pointer;}
+
+/* AD DETAILS */
+.BRD_ADLIST_1_UL_INFO,.BRD_ADLIST_2_UL_INFO {list-style-type:none;margin:0;padding:0}
+.BRD_ADLIST_1_LI_TITULO,.BRD_ADLIST_2_LI_TITULO {margin:0;padding:0;width:210px}
+.BRD_ADLIST_1_LI_TITULO a b,.BRD_ADLIST_1_LI_TITULO a,.BRD_ADLIST_1_LI_TITULO a:link,.BRD_ADLIST_1_LI_TITULO a:visited,.BRD_ADLIST_1_LI_TITULO a:active{font-family:'Open Sans',Arial,sans-serif;color:#828282;font-size:14px;line-height:24px;margin:0 0 20px 0;text-transform:uppercase;display:inline;text-decoration:none;font-weight:300;}
+.BRD_ADLIST_2_LI_TITULO a b,.BRD_ADLIST_2_LI_TITULO a,.BRD_ADLIST_2_LI_TITULO a:link,.BRD_ADLIST_2_LI_TITULO a:visited,.BRD_ADLIST_2_LI_TITULO a:active {font-family:'Open Sans',Arial,sans-serif;color:#828282;font-size:14px;line-height:24px;margin:0 0 20px 0;text-transform:uppercase;display:inline;text-decoration:none;font-weight:300;}
+.BRD_ADLIST_1_LI_TITULO a:hover,.BRD_ADLIST_2_LI_TITULO a:hover {text-decoration:underline;}
+.BRD_ADLIST_1_LI_TITULO span,.BRD_ADLIST_2_LI_TITULO span {font-weight:normal;}
+.BRD_ADLIST_1_LI_DETALHE,.BRD_ADLIST_2_LI_DETALHE {margin:20px 0 10px 0;padding:5px;width:200px;border-top: 1px solid #3E4095;border-bottom:1px solid #3E4095}
+.BRD_ADLIST_1_LI_DETALHE a,.BRD_ADLIST_1_LI_DETALHE a:link,.BRD_ADLIST_1_LI_DETALHE a:visited,.BRD_ADLIST_1_LI_DETALHE a:active {font-family:'Open Sans',Arial,sans-serif;font-weight:400;font-size:11px;color:#777777;text-decoration:none;}
+.BRD_ADLIST_2_LI_DETALHE a,.BRD_ADLIST_2_LI_DETALHE a:link,.BRD_ADLIST_2_LI_DETALHE a:visited,.BRD_ADLIST_2_LI_DETALHE a:active {font-family:'Open Sans',Arial,sans-serif;font-weight:400;font-size:11px;color:#777777;text-decoration:none;}
+.BRD_ADLIST_1_LI_DETALHE a:hover,.BRD_ADLIST_2_LI_DETALHE a:hover {text-decoration:underline;}
+.BRD_ADLIST_1_LI_EQUIP,.BRD_ADLIST_2_LI_EQUIP {margin:0;padding:15px 0 25px 0;width:210px;border-bottom:1px solid #3E4095}
+.BRD_ADLIST_1_LI_EQUIP a,.BRD_ADLIST_1_LI_EQUIP a:link,.BRD_ADLIST_1_LI_EQUIP a:visited,.BRD_ADLIST_1_LI_EQUIP a:active {font-family:'Open Sans',Arial,sans-serif;font-size:11px;color:#777777;font: 12px 'tahoma',arial;letter-spacing: 0;text-decoration:none;}
+.BRD_ADLIST_2_LI_EQUIP a,.BRD_ADLIST_2_LI_EQUIP a:link,.BRD_ADLIST_2_LI_EQUIP a:visited,.BRD_ADLIST_2_LI_EQUIP a:active {font-family:'Open Sans',Arial,sans-serif;font-size:11px;color:#777777;font: 12px 'tahoma',arial;letter-spacing: 0;text-decoration:none;}
+.BRD_ADLIST_1_LI_PRECO {font-family:'Open Sans',Arial,sans-serif;font-size:20px;color:#3E4095;text-align:right;margin:0;padding:15px 0 0 0;width:200px;text-transform:uppercase;font-weight:300;}
+.BRD_ADLIST_2_LI_PRECO {font-family:'Open Sans',Arial,sans-serif;font-size:20px;color:#3E4095;text-align:right;margin:0;padding:15px 0 0 0;width:200px;text-transform:uppercase;font-weight:300;}
+.BRD_ADLIST_1_LI_PRECO small,.BRD_ADLIST_2_LI_PRECO small {font-size:18px;width:270px}
+.BRD_ADLIST_1_LI_PRECO strong,.BRD_ADLIST_2_LI_PRECO strong {font-size:28px;width:270px}
+
+.BRD_LIST_HDR {background-color:#3E4095;-moz-border-radius:0 0 7px 7px;-webkit-border-radius:0 0 7px 7px;border-radius:0 0 7px 7px;padding:14px;vertical-align:top;margin:0 0 14px 0}
+.BRD_LIST_FOO {background-color:#3E4095;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;padding:14px;vertical-align:top;margin:0}
+.BRD_MESSAGE_BOX{background-color:#ffffff;font-family:arial;font-size:14px;color:#333;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;padding:14px 20px;vertical-align:top;margin:14px 0 0 0}
+.BRD_MESSAGE_BOX strong{font-family:arial;font-size:16px;letter-spacing:-1px;font-weight:bold;color:#224}
+.BRD_ADVSEARCH_FORM{background-color:#ffffff;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;padding:14px;vertical-align:top;margin:14px 14px 0 0}
+.BRD_ADVSEARCH_FILTER_TITLE{font-family:arial;font-size:25px;color:#224;letter-spacing:-1px;font-weight:normal;padding:30px 14px 8px 14px;margin:14px 0;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;}
+.BRD_FILTER_BOX{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;padding:4px;margin-bottom:5px;}
+.BRD_AD_DETAIL_HEADER{background-color:#ffffff;padding:14px;vertical-align:top;margin:0}
+.BRD_AD_DETAIL_BOX{background-color:#ffffff;-moz-border-radius:0 0 7px 7px;-webkit-border-radius:0 0 7px 7px;border-radius:0 0 7px 7px;padding:0 20px 30px 20px;vertical-align:top;margin:0 0 14px 0}
+
+.VMxPRECO strong {font-family:'Open Sans', sans-serif!important;letter-spacing:0px!important;color:#000000!important;}
+.VMxPRECO {font-family:'Open Sans', sans-serif!important;letter-spacing:0px!important;color:#000000!important;}
+
+.VM_ADLISTDEPT, td.VM_ADLISTDEPT {font-family:"Century Gothic",arial!important;color:#34464F!important;letter-spacing:0px!important;font-size:21px;line-height:24px;margin:0 0 20px 0;text-transform:uppercase;display:inline;text-decoration:none;font-weight:300!important;}
+td.VM_ADLISTTITLE {font-family:"Century Gothic",arial!important;color:#34464F!important;letter-spacing:0px!important;font-size:16px!important;line-height:32px!important;text-transform:uppercase;display:inline;text-decoration:none}
+.VMxMODELO, .VMxMODELO2{font-family:'Open Sans', sans-serif!important;color:#000000!important;font-size:21px!important;letter-spacing:0px!important;line-height:24px;margin:0 0 20px 0;text-transform:uppercase;display:inline;text-decoration:none;font-weight:300;}
+.VMxFORMHDR{font-family:"Century Gothic",arial!important;font-weight:bold;color:#000000!important;letter-spacing:0px!important;font-size:16px!important;line-height:50px!important;text-transform:uppercase;padding:7px 0!important;text-decoration:none}
+
+.VMsLB1 {font-family:arial;font-size:14px;font-weight:normal;color:#666666}
+.VMsLB2 {font-family:arial;font-size:20px;font-weight:bold;letter-spacing:-1px;color:#666666}
+.VMsLB2 b {color:#333333}
+.VMsLB2 strong {font-size:32px;letter-spacing:-1.5px;line-height:40px}
+
+.VMxDETALHES, .VMxCONTATO{font-family:"Century Gothic",arial!important;color:#000000!important;}
+.mLink a,.mLink,.mLink a:LINK{color:#000000;text-decoration:none;text-transform:uppercase;font-family: 'Open Sans',sans-serif!important; font-size:20px;margin:20px;line-height:30px;}
+.mLink a:HOVER,.mLink:HOVER{text-decoration:underline;}
+
+.VM_TABLE, .VM_LISTHEADER a{color:#ffffff!important;}
+.VMxCTRLBARTXT{color:#ffffff!important;}
+.VMxFOTOLNK{color:#ffffff!important;}
+.VMxEQUIPHDR{color:#ffffff!important;}
+.VMxEQUIPDTL1, .VMxEQUIPDTL2{color:#ffffff!important;}
+
+#BANNER_TOP{width:740px;background-color:#EFEFEF;height:250px;border-bottom:3px solid #3E4095;margin-bottom:10px;}
+.barra{border-bottom:solid 2px #3E4095;}
+.ofertas{text-decoration:none;font-family:Arial, serif; font-size:16px;color:#000000;}
